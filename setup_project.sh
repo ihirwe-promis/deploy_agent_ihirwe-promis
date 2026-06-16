@@ -45,4 +45,6 @@ else
    echo "Error: Structure incomplete"
    exit 1
 fi
-
+echo "Project setup complete."
+echo "Press Ctrl+C now to test the trap..."
+sleep 10
