@@ -47,4 +47,4 @@ else
 fi
 echo "Project setup complete."
 echo "Press Ctrl+C now to test the trap..."
-sleep 10
+sleep 15
