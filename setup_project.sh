@@ -8,8 +8,11 @@ echo "Enter project name:"
 read input
 project_dir="attendance_tracker_${input}"
 if [ -d "$project_dir" ]; then
-  echo "Error: Project already exists"
-  exit 1
+  read -p "Directory exists. Continue and overwrite? (y/n): " choice
+  if [ "$choice" != "y" ]; then
+    exit 1
+  fi
+  rm -rf "$project_dir"
 fi
 mkdir "$project_dir"
 mkdir "$project_dir/Helpers"
