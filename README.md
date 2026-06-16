@@ -27,4 +27,4 @@ Run the script and press `Ctrl+C`. The script will:
 2. Delete the incomplete project folder.
 3. Exit safely.
 # My video demo
-My walkthrough https://youtu.be/yRlf428NLyo
+https://youtu.be/2Nvs0fMxCa8
